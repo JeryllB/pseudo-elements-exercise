@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.main-header {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.intro-paragraph {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+    position: relative;
+}
+
+.cta-button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff69b4; /* Pink */
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.cta-button::before,
+.cta-button::after {
+    content: "\261B"; /* Unicode for pointing hand symbol */
+    position: absolute;
+    color: #fff;
+}
+
+.cta-button::before {
+    left: 10px;
+}
+
+.cta-button::after {
+    right: 10px;
+}
